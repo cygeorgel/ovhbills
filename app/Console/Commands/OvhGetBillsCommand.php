@@ -17,14 +17,14 @@ class OvhGetBillsCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'ovh:getBills {from}';
+    protected $signature = 'ovh:getBills';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Get Ovh bills from date Y-m-d';
+    protected $description = 'Get Ovh bills';
 
     /**
      * Create a new command instance.
@@ -49,11 +49,24 @@ class OvhGetBillsCommand extends Command
 
             try {
 
+                $ovhBill = OvhBill::orderByDesc('documentDate')->first();
+
+                if ($ovhBill) {
+
+                    $from = $ovhBill->documentDate->format('Y-m-d');
+
+                } else {
+
+                    $back = config('ovhBills.nbOfMonthsBack');
+
+                    $from = now()->startOfMonth()->subMonths($back)->format('Y-m-d');
+                }
+
                 $api = new Api($ovhConfig->app_key, $ovhConfig->app_secret, $ovhConfig->app_endpoint, $ovhConfig->app_conskey);
 
                 $nic = $api->get('/me')['nichandle'];
 
-                $bills = $api->get('/me/bill?date.from=' . $this->argument('from') . '&date.to=' . now()->format('Y-m-d'));
+                $bills = $api->get('/me/bill?date.from=' . $from . '&date.to=' . now()->format('Y-m-d'));
 
                 foreach ($bills as $bill) {
 

@@ -4,7 +4,7 @@
 
 OvhBills get your Ovh bills for you.
 
-
+![OvhBills interface](https://fr.bluerocktel.com/wp-content/uploads/2019/10/ovhbills-1024x806.png)
 
 ## Installation
 
@@ -13,10 +13,13 @@ OvhBills get your Ovh bills for you.
 * Copy file .env.example to .env
 * Open .env and enter your database settings right (you can also enter your FTP settings if you want your bills to be stored on your FTP server)
 * Run the migrations ```php artisan migrate```
+* Add this line to your crontab : ```* * * * * php {pathToTheApp}/artisan schedule:run```
+* Register and login to the interface, enter your Ovh settings
 
 ## License
 
-OVHBills is released under the MIT license. See the bundled LICENSE file for details.
+OVHBills is released under the MIT license.
+See the bundled LICENSE file for details.
 
 ## Author
 

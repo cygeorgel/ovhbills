@@ -16,6 +16,8 @@ return [
     |
     */
 
+    'nbOfMonthsBack' => env('NB_OF_MONTHS_BACK', 24),
+
     'disks' => env('DISKS', 'local'),
 
 ];
