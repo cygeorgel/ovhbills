@@ -94,6 +94,7 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/ovh/ovh" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/laracasts/flash" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

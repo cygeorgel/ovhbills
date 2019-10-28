@@ -63,19 +63,21 @@ class OvhGetBillsCommand extends Command
 
                         $filename = $data['billId'] . '.pdf';
 
-                        $documentDate = Carbon::createFromFormat('Y-m-d', $data['date'])->format('Ym');
+                        $documentDate = new \Datetime($data['date']);
 
-                        $disks = explode(',', config('ovhbills.disks'));
+                        $month = $documentDate->format('Ym');
+
+                        $disks = explode(',', config('ovhBills.disks'));
 
                         foreach ($disks as $disk) {
 
-                            if (!Storage::disk($disk)->exists('ovhBills/' . $documentDate . '/' . $filename)) {
+                            if (!Storage::disk($disk)->exists('ovhBills/' . $month . '/' . $filename)) {
 
-                                Storage::disk($disk)->makeDirectory('ovhBills/' . $documentDate);
+                                Storage::disk($disk)->makeDirectory('ovhBills/' . $month);
 
                                 $content = file_get_contents($api->get('/me/bill/' . $data['billId'])['pdfUrl']);
 
-                                if (Storage::disk($disk)->put('ovhBills/' . $documentDate . '/' . $filename, $content)) {
+                                if (Storage::disk($disk)->put('ovhBills/' . $month . '/' . $filename, $content)) {
 
                                     print 'Storage of ' . $filename . ' to ' . $disk . ': OK ' . PHP_EOL;
 
@@ -93,13 +95,13 @@ class OvhGetBillsCommand extends Command
 
                         $control = OvhBill::where('billId', $data['billId'])->count();
 
-                        if (!$control) {
+                        if ( ! $control) {
 
                             $ovhBill = OvhBill::create([
 
                                 'billId' => $data['billId'],
                                 'nic' => $nic,
-                                'documentDate' => Carbon::createFromFormat('Y-m-d', $data['date']),
+                                'documentDate' => $documentDate,
                                 'url' => $data['url'],
                                 'password' => $data['password'],
                                 'currency' => $data['priceWithoutTax']['currencyCode'],

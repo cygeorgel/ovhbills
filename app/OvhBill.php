@@ -12,6 +12,6 @@ class OvhBill extends Model
 
     public function details()
     {
-        return $this->hasMany(OvhBillDetail::class);
+        return $this->hasMany(OvhBillDetail::class, 'bill_id', 'id');
     }
 }

@@ -18,3 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('ovhBills', 'OvhBillController@index');
+Route::post('ovhBills', 'OvhBillController@index');
+Route::get('ovhBills/{ovhBill}', 'OvhBillController@show');
+Route::get('ovhBills/{ovhBill}/document', 'OvhBillController@document');
+Route::resource('ovhConfigs', 'OvhConfigController');

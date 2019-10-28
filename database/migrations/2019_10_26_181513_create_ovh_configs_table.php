@@ -14,8 +14,17 @@ class CreateOvhConfigsTable extends Migration
     public function up()
     {
         Schema::create('ovh_configs', function (Blueprint $table) {
+
             $table->bigIncrements('id');
+            $table->boolean('active')->default(true);
+            $table->string('app_endpoint')->default('ovh-eu');
+            $table->string('app_key');
+            $table->string('app_secret');
+            $table->string('app_conskey');
+            $table->string('nichandle')->nullable();
+            $table->text('comment')->nullable();
             $table->timestamps();
+
         });
     }
 
