@@ -36,7 +36,7 @@
                             <a class="nav-link" href="ovhConfigs">Configuration</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="ovhBills">Ovh Bills</a>
+                            <a class="nav-link" href="ovhBills">OvhBills</a>
                         </li>
                     </ul>
                     <!-- Right Side Of Navbar -->

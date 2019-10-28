@@ -2,22 +2,28 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
-            </div>
+    <div class="card">
+        <div class="card-header">
+            {{ ucfirst(__('app.welcome')) }}
+        </div>
+        <div class="card-body">
+            <p>
+                <a href="ovhConfigs">
+                    {{ ucfirst(__('app.settings')) }}
+                </a>
+            </p>
+            <p>
+                <a href="ovhBills">
+                    OvhBills
+                </a>
+            </p>
+            <p>
+                <a href="https://bluerocktel.com">
+                    BlueRockTEL
+                </a>
+            </p>
         </div>
     </div>
 </div>
+
 @endsection
