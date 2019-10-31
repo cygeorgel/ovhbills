@@ -25,13 +25,14 @@ class OvhBillController extends Controller
     {
         if (isset ($request->month)) {
 
-            $month = \Carbon\Carbon::createFromFormat('Y-m', $request->month);
+            $month = \Carbon\Carbon::createFromFormat('Y-m-d', $request->month . '-01');
 
         } else {
 
             $month = now()->startOfMonth()->subMonths(1);
 
         }
+
 
         $names = $this->names;
 

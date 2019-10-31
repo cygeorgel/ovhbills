@@ -4,7 +4,29 @@
 
     <div class="row">
         <div class="col-12">
-            <div class="card">
+            <div class="card mt-4">
+                <div class="card-header">
+                    Create your keys
+                </div>
+                <div class="card-body">
+                    <p>
+                        Please create your Api keys here: <a href="https://api.ovh.com/createToken/index.cgi?GET=/me">
+                            https://api.ovh.com/createToken/index.cgi?GET=/me
+                        </a> with the following rights:
+                    </p>
+                    <ul>
+                        <li>GET /me</li>
+                        <li>GET /me/*</li>
+                    </ul>
+                    <p>
+                        Then add your keys hereafter.
+                    </p>
+                    <p>
+                        You can set up several ovh configuration for different nic-handles if needed.
+                    </p>
+                </div>
+            </div>
+            <div class="card mt-4">
                 <div class="card-header">
                     {{ ucfirst(__('app.' . $names['plural'])) }} <small>({{ count($elements) }} {{ __('app.elements') }})</small>
                 </div>

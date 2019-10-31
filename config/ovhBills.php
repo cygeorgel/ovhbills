@@ -16,8 +16,10 @@ return [
     |
     */
 
-    'nbOfMonthsBack' => env('NB_OF_MONTHS_BACK', 24),
+    'currency' => env('CURRENCY', '€'),
 
     'disks' => env('DISKS', 'local'),
+
+    'nbOfMonthsBack' => env('NB_OF_MONTHS_BACK', 24),
 
 ];

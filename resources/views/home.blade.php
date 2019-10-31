@@ -17,11 +17,6 @@
                     OvhBills
                 </a>
             </p>
-            <p>
-                <a href="https://bluerocktel.com">
-                    BlueRockTEL
-                </a>
-            </p>
         </div>
     </div>
 </div>

@@ -8,8 +8,12 @@ if ( ! function_exists('amount')) {
      * @param string $currency
      * @return string
      */
-    function amount($amount, $language = null, $currency = '€')
+    function amount($amount)
     {
+        $language = config('app.locale');
+
+        $currency = config('ovhBills.currency');
+
         if ($language == 'fr') {
 
             return number_format($amount, 2, ',', ' ') .  ' ' . $currency;
@@ -31,7 +35,7 @@ if ( ! function_exists('pastMonths')) {
 
         for ($i = 0; $i <= $nb; $i++) {
 
-            $months[] = now()->subMonth($i);
+            $months[] = now()->startOfMonth()->subMonths($i);
         }
 
         return $months;

@@ -72,17 +72,32 @@
             <div class="container">
 
 
-                <h1>OvhBills</h1>
-                <h2>Get your Ovh / OvhCloud bills the easy way</h2>
-
-                <p>
-                    Find out more ?<br />
-                    <a href="https://bluerocktel.com">BlueRockTEL</a><br />
-                    <a href="https://github.com/cygeorgel/ovhbills">GitHub</a><br />
-                </p>
-
-
-
+                <div class="card mt-4">
+                    <div class="card-header h1">
+                        OvhBills
+                    </div>
+                    <div class="card-body h2">
+                        Get your Ovh/OvhCloud bills the easy way
+                    </div>
+                </div>
+                <div class="card mt-4">
+                    <div class="card-header">
+                        Find out more?
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/cygeorgel/ovhbills" target="_blank">On Github</a>
+                            </li>
+                            <li>
+                                <a href="https://bluerocktel.com" target="_blank">BlueRockTEL</a>
+                            </li>
+                            <li>
+                                <a href="https://www.ovhcloud.com" target="_blank">OvhCloud</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </main>
     </div>

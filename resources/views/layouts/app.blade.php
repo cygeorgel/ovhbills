@@ -32,12 +32,17 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="ovhConfigs">Configuration</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="ovhBills">OvhBills</a>
-                        </li>
+                        @guest
+
+                        @else
+                            <li class="nav-item">
+                                <a class="nav-link" href="ovhConfigs">Configuration</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ovhBills">OvhBills</a>
+                            </li>
+
+                        @endguest
                     </ul>
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
