@@ -29,9 +29,9 @@ Cyrille Georgel ([BlueRock R&D](https://bluerock.ie)/[BlueRockTEL](https://bluer
 
 ### [BlueRock R&D](https://bluerock.ie)
 
-We listen to you in order to understand your work and your needs, before designing and building an elegant and efficient Web application for you. An application based on the highest standards, which will make you more agile, efficient and confident. Laravel specialist and Ovh partner [Learn more](https://bluerock.ie/en)
+We listen to you in order to understand your work and your needs, before designing and building an elegant and efficient [Web application](https://bluerock.ie/en) for you. An application based on the highest standards, which will make you more agile, efficient and confident. [Laravel specialist](https://bluerock.ie/en) and Ovh partner [Learn more](https://bluerock.ie/en)
 
-Nous vous écoutons afin de comprendre votre métier, avant de concevoir et de constuire, pour vous et avec vous, une application Web élégante et performante, fondée sur les standards les plus efficients, qui va vous rendre plus agile, plus efficace et plus serein. Spécialiste Laravel et partenaire Ovh. [En savoir plus](https://bluerock.ie/fr)
+Nous vous écoutons afin de comprendre votre métier, avant de concevoir et de constuire, pour vous et avec vous, une [application Web](https://bluerock.ie/fr) élégante et performante, fondée sur les standards les plus efficients, qui va vous rendre plus agile, plus efficace et plus serein. [Spécialiste Laravel](https://bluerock.ie/fr) et partenaire Ovh. [En savoir plus](https://bluerock.ie/fr)
 
 ### [BlueRockTEL](https://bluerocktel.com)
 
