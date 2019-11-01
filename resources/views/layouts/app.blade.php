@@ -36,10 +36,10 @@
 
                         @else
                             <li class="nav-item">
-                                <a class="nav-link" href="ovhConfigs">Configuration</a>
+                                <a class="nav-link" href="ovhConfigs">{{ ucfirst(__('app.settings')) }}</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="ovhBills">OvhBills</a>
+                                <a class="nav-link" href="ovhBills">{{ ucfirst(__('app.ovhBills')) }}</a>
                             </li>
 
                         @endguest

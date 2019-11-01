@@ -4,7 +4,7 @@
 
 OvhBills get your Ovh bills for you.
 
-![OvhBills interface](https://fr.bluerocktel.com/wp-content/uploads/2019/10/bluerocktel-ovhbills.png)
+![OvhBills interface](https://en.bluerocktel.com/wp-content/uploads/2019/11/bluerocktel-ovhbills-en-1024x777.png)
 
 ## Installation
 
