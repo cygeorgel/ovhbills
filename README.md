@@ -8,6 +8,8 @@ OvhBills get your Ovh bills for you.
 
 ## Installation
 
+OvhBills is a Laravel 6 application.
+
 * Clone or download this repository to your server.
 * Run ```composer install```
 * Copy file .env.example to .env
@@ -23,10 +25,15 @@ See the bundled LICENSE file for details.
 
 ## Author
 
-Cyrille Georgel ([BlueRockTEL](https://bluerocktel.com))
+Cyrille Georgel ([BlueRock R&D](https://bluerock.ie)/[BlueRockTEL](https://bluerocktel.com))
 
+### [BlueRock R&D](https://bluerock.ie)
 
-## [BlueRockTEL](https://bluerocktel.com)
+We listen to you in order to understand your work and your needs, before designing and building an elegant and efficient Web application for you. An application based on the highest standards, which will make you more agile, efficient and confident. Laravel specialist and Ovh partner [Learn more](https://bluerock.ie/en)
+
+Nous vous écoutons afin de comprendre votre métier, avant de concevoir et de constuire, pour vous et avec vous, une application Web élégante et performante, fondée sur les standards les plus efficients, qui va vous rendre plus agile, plus efficace et plus serein. Spécialiste Laravel et partenaire Ovh. [En savoir plus](https://bluerock.ie/fr)
+
+### [BlueRockTEL](https://bluerocktel.com)
 
 The context of the subscription economy and the increasing convergence between Telecom and Cloud services brings new ways of approaching customers, selling to them, serving and charging them. BlueRockTEL is your [complete CRM and billing solution](https://en.bluerocktel.com) to do so. Our fully automated, cost effective and data driven solution will help you to reach your business goals. [Learn more](https://en.bluerocktel.com)
 
