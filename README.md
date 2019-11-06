@@ -23,13 +23,17 @@ OvhBills is a Laravel 6 application.
 OVHBills is released under the MIT license.
 See the bundled LICENSE file for details.
 
+## Alternative
+
+Node alternative by UrielCh: [https://github.com/UrielCh/api-ovh-node/tree/master/samples/ovh-bill-importer](https://github.com/UrielCh/api-ovh-node/tree/master/samples/ovh-bill-importer)
+                               
 ## Author
 
 Cyrille Georgel ([BlueRock R&D](https://bluerock.ie)/[BlueRockTEL](https://bluerocktel.com))
 
 ### [BlueRock R&D](https://bluerock.ie)
 
-We listen to you in order to understand your work and your needs, before designing and building an elegant and efficient [Web application](https://bluerock.ie/en) for you. An application based on the highest standards, which will make you more agile, efficient and confident. [Laravel specialist](https://bluerock.ie/en) and Ovh partner [Learn more](https://bluerock.ie/en)
+We listen to you in order to understand your work and your needs, before designing and building an elegant and efficient [Web application](https://bluerock.ie/en) for you. An application based on the highest standards, which will make you more agile, efficient and confident. [Laravel specialist](https://bluerock.ie/en) and Ovh partner [Learn more](https://bluerock.ie/en)z
 
 Nous vous écoutons afin de comprendre votre métier, avant de concevoir et de constuire, pour vous et avec vous, une [application Web](https://bluerock.ie/fr) élégante et performante, fondée sur les standards les plus efficients, qui va vous rendre plus agile, plus efficace et plus serein. [Spécialiste Laravel](https://bluerock.ie/fr) et partenaire Ovh. [En savoir plus](https://bluerock.ie/fr)
 
@@ -37,4 +41,4 @@ Nous vous écoutons afin de comprendre votre métier, avant de concevoir et de c
 
 The context of the subscription economy and the increasing convergence between Telecom and Cloud services brings new ways of approaching customers, selling to them, serving and charging them. BlueRockTEL is your [complete CRM and billing solution](https://en.bluerocktel.com) to do so. Our fully automated, cost effective and data driven solution will help you to reach your business goals. [Learn more](https://en.bluerocktel.com)
 
-La généralisation de l'économie de l'abonnement et la convergence croissante entre les services Telecom et Coud apportent de nouvelles manière d'approcher les clients, de leur vendre, de les services et de les facturer. BlueRockTEL est [votre solution CRM et facturation complète](https://fr.bluerocktel.com) pour réussir ce challenge. Notre solution entièrement automatisée, économique et axée sur la data vous aidera à atteindre vos objectifs business. [En savoir plus](https://fr.bluerocktel.com)
+La généralisation de l'économie de l'abonnement et la convergence croissante entre les services Telecom et Coud apportent de nouvelles manières d'approcher les clients, de les servir et de les facturer. BlueRockTEL est [votre solution CRM et facturation complète](https://fr.bluerocktel.com) pour réussir ce challenge. Notre solution entièrement automatisée, économique et axée sur la data vous aidera à atteindre vos objectifs business. [En savoir plus](https://fr.bluerocktel.com)

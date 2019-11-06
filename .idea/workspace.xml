@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05709b39-6390-4956-9e45-61913ff6ef2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +18,13 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="442">
-                <caret line="31" column="373" lean-forward="true" selection-start-line="31" selection-start-column="373" selection-end-line="31" selection-end-column="373" />
+              <first_editor relative-caret-position="762">
+                <caret line="43" column="482" selection-start-line="43" selection-start-column="482" selection-end-line="43" selection-end-column="482" />
               </first_editor>
               <second_editor />
             </state>
@@ -211,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../events.bluerocktel.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -255,18 +256,19 @@
       <updated>1572113760255</updated>
       <workItem from="1572113761599" duration="17858000" />
       <workItem from="1572184069601" duration="26470000" />
-      <workItem from="1572506646656" duration="8985000" />
+      <workItem from="1572506646656" duration="9393000" />
+      <workItem from="1573060213700" duration="291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53313000" />
+    <option name="totallyTimeSpent" value="54012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25453576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25720385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -586,8 +588,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="442">
-            <caret line="31" column="373" lean-forward="true" selection-start-line="31" selection-start-column="373" selection-end-line="31" selection-end-column="373" />
+          <first_editor relative-caret-position="762">
+            <caret line="43" column="482" selection-start-line="43" selection-start-column="482" selection-end-line="43" selection-end-column="482" />
           </first_editor>
           <second_editor />
         </state>
