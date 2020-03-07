@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -35,5 +37,24 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+
+    /**
+     * Show the application's login form.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function showLoginForm(Request $request)
+    {
+        if(isset($_SERVER['REMOTE_USER'])) {
+            $User = User::where('name', $_SERVER['REMOTE_USER'])->first();
+            if ($User instanceof User && $this->guard()->guest()) {
+                $this->guard()->login($User);
+                return $this->authenticated($request, $this->guard()->user())
+                        ?: redirect()->intended($this->redirectPath());
+            }
+        }
+        return view('auth.login');
     }
 }
